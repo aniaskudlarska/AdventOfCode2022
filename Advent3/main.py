@@ -1,6 +1,5 @@
 sackList = (open("input.txt", "r")).read().splitlines()
 
-
 def getLike(str):
     firstHalf = str[:len(str) // 2]
     secondHalf = str[len(str) // 2:]
